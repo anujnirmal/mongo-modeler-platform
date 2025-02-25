@@ -12,7 +12,7 @@ export const ZoomOutButton = () => {
   return (
     <ToolbarButton
       icon={<ZoomOut />}
-      label="Zoom Out"
+      label=""
       onClick={zoomOut}
       className={classes.button}
       disabled={canvasViewSettings.zoomFactor > MAXIMUM_ZOOM_FACTOR_ALLOWED}

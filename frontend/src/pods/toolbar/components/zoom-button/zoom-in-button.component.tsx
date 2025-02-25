@@ -12,7 +12,7 @@ export const ZoomInButton = () => {
   return (
     <ToolbarButton
       icon={<ZoomIn />}
-      label="Zoom In"
+      label=""
       onClick={zoomIn}
       className={classes.button}
       disabled={canvasViewSettings.zoomFactor < MINIMUM_ZOOM_FACTOR_ALLOWED}

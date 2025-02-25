@@ -11,7 +11,7 @@ export const RedoButton: React.FC = () => {
   return (
     <ToolbarButton
       icon={<RedoIcon />}
-      label={'Redo'}
+      label={''}
       onClick={() => doRedo()}
       className={`${classes.button} hide-mobile`}
       disabled={!canRedo()}

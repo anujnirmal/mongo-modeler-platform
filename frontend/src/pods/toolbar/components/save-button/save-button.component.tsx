@@ -47,7 +47,7 @@ export const SaveButton = () => {
   return (
     <ToolbarButton
       icon={<SaveIcon />}
-      label={'Save'}
+      label={''}
       onClick={() => saveFile(canvasViewSettings.filename)}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.save}

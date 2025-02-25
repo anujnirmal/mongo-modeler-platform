@@ -15,7 +15,7 @@ export const AboutButton = () => {
   return (
     <ToolbarButton
       icon={<AboutIcon />}
-      label="About us"
+      label=""
       onClick={handleRelationClick}
       className={classes.button}
     />

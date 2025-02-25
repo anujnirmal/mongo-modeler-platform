@@ -46,7 +46,7 @@ export const AddCollection = () => {
   return (
     <ToolbarButton
       icon={<TableIcon />}
-      label="Add Collection"
+      label=""
       onClick={handleEditTableClick}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.addCollection}

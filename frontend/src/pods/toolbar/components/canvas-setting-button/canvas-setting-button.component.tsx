@@ -23,7 +23,7 @@ export const CanvasSettingButton = () => {
   return (
     <ToolbarButton
       icon={<CanvasSetting />}
-      label="Settings"
+      label=""
       onClick={handleCanvasSettings}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.settings}

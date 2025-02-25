@@ -123,7 +123,7 @@ export const ExportButton = () => {
   return (
     <ToolbarButton
       icon={<ExportIcon />}
-      label="Export"
+      label=""
       onClick={handleExportClick}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.export}

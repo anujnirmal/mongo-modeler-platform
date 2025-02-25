@@ -20,7 +20,7 @@ export const NewButton = () => {
   return (
     <ToolbarButton
       icon={<NewIcon />}
-      label="New"
+      label=""
       onClick={handleNewButtonClick}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.new}

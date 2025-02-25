@@ -36,7 +36,7 @@ export const OpenButton: React.FC = () => {
   return (
     <ToolbarButton
       icon={<OpenIcon />}
-      label={'Open'}
+      label={''}
       onClick={() => FileInput(handleOpenButtonClick)}
       className={classes.button}
       shortcutOptions={SHORTCUTS.open}

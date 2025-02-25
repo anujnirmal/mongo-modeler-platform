@@ -36,7 +36,7 @@ export const RelationButton = () => {
   return (
     <ToolbarButton
       icon={<Relation />}
-      label="Add Relation"
+      label=""
       onClick={handleRelationClick}
       className={`${classes.button} hide-mobile`}
       shortcutOptions={SHORTCUTS.addRelation}

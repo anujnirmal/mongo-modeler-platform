@@ -1,8 +1,20 @@
-.container {
+/* .container {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 'toolbar toolbar' 'canvas canvas' 'document document';
+  width: 100vw;
+  height: 100svh;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'toolbar canvas'
+    'toolbar canvas'
+    'toolbar canvas';
   width: 100vw;
   height: 100svh;
 }

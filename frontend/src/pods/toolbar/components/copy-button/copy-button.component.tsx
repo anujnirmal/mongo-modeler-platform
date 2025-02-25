@@ -10,7 +10,7 @@ export const CopyButton = () => {
   return (
     <ToolbarButton
       icon={<CopyIcon />}
-      label="Copy"
+      label=""
       onClick={copySelectedTable}
       className={`${classes.button} hide-mobile`}
       disabled={!canvasSchema.selectedElementId}

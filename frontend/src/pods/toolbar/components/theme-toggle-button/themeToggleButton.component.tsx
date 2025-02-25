@@ -7,17 +7,13 @@ interface Props {
   darkLabel: string;
   lightLabel: string;
 }
-export const ThemeToggleButton: React.FC<Props> = ({
-  darkLabel,
-  lightLabel,
-}) => {
+export const ThemeToggleButton: React.FC<Props> = () => {
   const { theme, toggleTheme } = useThemeContext();
-  const label = theme.themeMode === 'dark' ? lightLabel : darkLabel;
   return (
     <ToolbarButton
       className={`${classes.button} hide-mobile`}
       icon={theme.themeMode === 'dark' ? <LightIcon /> : <DarkIcon />}
-      label={label}
+      label={''}
       onClick={toggleTheme}
     />
   );

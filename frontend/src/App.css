@@ -91,7 +91,7 @@
   --border-radius-xxl: calc(var(--border-radius-unit) * 12);
   --border-radius-xxxl: calc(var(--border-radius-unit) * 16);
 
-  --input-border-color: var(--background-400);
+  --input-border-color: var(--);
   --edit-table-header: var(--background-900);
   --input-border-color-active: var(--primary-300);
   --input-radio-border-color: var(--background-400);
@@ -225,7 +225,7 @@ button:focus-visible {
 }
 
 button:hover {
-  background-color: var(--hover-button);
+  /* background-color: var(--hover-button); */
   color: var(--text-dark);
 }
 

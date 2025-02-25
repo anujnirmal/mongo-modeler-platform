@@ -10,7 +10,7 @@ export const PasteButton = () => {
   return (
     <ToolbarButton
       icon={<PasteIcon />}
-      label="Paste"
+      label=""
       onClick={pasteTable}
       className={`${classes.button} hide-mobile`}
       disabled={!hasClipboardContent}

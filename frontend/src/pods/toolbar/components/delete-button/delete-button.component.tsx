@@ -15,7 +15,7 @@ export const DeleteButton: React.FC = () => {
   return (
     <ToolbarButton
       icon={<TrashIcon />}
-      label="Delete"
+      label=""
       onClick={handleDeleteSelectedItemClick}
       className={`${classes.button} hide-mobile`}
       disabled={canvasSchema.selectedElementId ? false : true}

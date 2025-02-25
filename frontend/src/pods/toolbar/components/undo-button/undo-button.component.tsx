@@ -11,7 +11,7 @@ export const UndoButton: React.FC = () => {
   return (
     <ToolbarButton
       icon={<UndoIcon />}
-      label={'Undo'}
+      label={''}
       onClick={() => doUndo()}
       className={`${classes.button} hide-mobile`}
       disabled={false}
